@@ -34,7 +34,6 @@ public class HibernateUtil {
         try {
             Configuration configuration = new Configuration();
 
-            // Hibernate settings equivalent to hibernate.cfg.xml's properties
             Properties settings = new Properties();
             settings.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
             settings.put(Environment.URL, "jdbc:mysql://localhost:3306/todo?useSSL=false");
@@ -46,8 +45,8 @@ public class HibernateUtil {
 
             settings.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
 
-            //settings.put(Environment.HBM2DDL_AUTO, "create");
-            settings.put(Environment.HBM2DDL_AUTO, "update");
+            settings.put(Environment.HBM2DDL_AUTO, "create");
+            //settings.put(Environment.HBM2DDL_AUTO, "update");
 
             configuration.setProperties(settings);
 
