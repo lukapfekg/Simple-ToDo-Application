@@ -7,7 +7,7 @@ Uputstvo za postavljanje aplikacije:
 4. Unutar klase src/java/db/HibernateUtil potrebno je zakomentarisati 48. liniju, i skinuti komentar sa 49. linije.
 5. Program se zatim pokreće, i na ekranu će se pojaviti GUI aplikacija.
 
-Uputstvo za korišćenje aplikacije:
+Uputstvo za korišćenje aplikacije:  
 Na početku će baza podataka biti prazna, i samim tim i prozor aplikacije. Potrebno je dodati novi <i>task</i> pritiskom na dugme <i>ADD TASK</i>.
 Pritiskom na to dugme otvoriće se novi prozor koji sadrži polje u kojem se upisuje tekst taska i dugme kojim se on unosi u program.
 Nakon dodavanja taska on će se prikazati na ekranu. Sa njegove leve strane se nalazi prazan krug. Klikom kursora na dati krug task će se označiti kao odrađen i krug će pozeleneti.
